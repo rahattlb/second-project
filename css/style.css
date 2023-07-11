@@ -1,0 +1,4605 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HEADER */
+
+header {
+  margin-top: 30px;
+}
+
+.container {
+  width: 1920px;
+  margin: auto;
+}
+
+nav {
+  width: 1720px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 238px;
+  height: 60px;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+ 
+nav ul li a {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1%;
+  text-transform: uppercase;
+}
+
+.navbar_button button {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -3%;
+  background-color: black;
+  border-radius: 7px;
+  width: 134px;
+  height: 62px;
+  color: white;
+  cursor: pointer;
+  border: 0;
+}
+
+/* MAIN */
+
+.banner {
+  background-color: rgba(244, 245, 245, .1);
+  width: 1720px;
+  height: 852px;
+  margin: auto;
+  border-radius: 59px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  position: relative;
+}
+
+.banner_left {
+  width: 40%;
+}
+
+.banner_right {
+  width: 60%;
+}
+
+.banner_left_content {
+  padding: 50px 0 50px 50px;
+}
+
+.banner_left_content_texts h1 {
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 120px;
+  text-transform: uppercase;
+}
+
+.banner_left_content_texts h1 span:nth-child(1) {
+  background-color: white;
+  padding: 5px 20px;
+}
+
+.banner_left_content_texts h1 span:nth-child(2) {
+  background-color: rgba(235, 217, 107, 1);
+  padding: 5px 20px;
+}
+
+.banner_left_content p {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -5%;
+  line-height: 80px;
+}
+
+.banner_left_content_btns {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.banner_left_content_btns button {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -3%;
+  background-color: black;
+  border-radius: 7px;
+  width: 221px;
+  height: 82px;
+  color: white;
+  cursor: pointer;
+  border: 0;
+}
+
+.banner_right {
+  position: relative;
+}
+
+.banner_right .women {
+  position: absolute;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.star {
+  position: absolute;
+  width: 58px;
+  height: 56px;
+}
+
+.star1 {
+ top: 10%;
+ left: -4%;
+}
+
+.star2 {
+  right: 30%;
+  top: 15%;
+}
+
+.star3 {
+  bottom: 5%;
+}
+
+.star4 {
+  right: 10%;
+  bottom: 8%;
+}
+
+.brands {
+  width: 1920px;
+  height: 186px;
+  background-color: rgba(235, 217, 107, 1);
+  margin: auto;
+}
+
+.brands_logo {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brands_logo_1 {
+  width: 102px;
+  height: 57px;
+  cursor: pointer;
+}
+
+.brands_logo_2 {
+  width: 120px;
+  height: 62px;
+  cursor: pointer;
+}
+
+.brands_logo_3 {
+  width: 159px;
+  height: 42px;
+  cursor: pointer;
+}
+
+.brands_logo_4 {
+  width: 246px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.brands_logo_5 {
+  width: 118px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.brands_logo_6 {
+  width: 146px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.banner_new_arrivals_head {
+  padding: 50px 0 80px 100px ;
+}
+
+.banner_new_arrivals_head_content {
+  width: 411px;
+  height: 58px;
+  position: relative;
+  cursor: pointer;
+}
+
+.head_image {
+  width: 191px;
+  height: 36px;
+  position: absolute;
+  top: 19px;
+  left: 201px;
+  z-index: 0;
+}
+
+.head_title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 6%;
+  position: relative;
+  z-index: 2;
+}
+
+.card1_content img {
+  cursor: pointer;
+}
+
+.card2_content img {
+  cursor: pointer;
+}
+
+.card3_content img {
+  cursor: pointer;
+}
+
+.card1_content_description {
+  display: flex;
+  align-items: center;
+}
+
+.card2_content_description {
+  display: flex;
+  align-items: center;
+}
+
+.card3_content_description {
+  display: flex;
+  align-items: center;  
+}
+
+.arrow {
+  width:10%
+}
+
+.text {
+  width: 90%;
+}
+
+.text h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: -4%;
+}
+
+.text p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: -4%;
+}
+
+.arrow img {
+  width: 45px;
+  height: 23px;
+  cursor: pointer;
+}
+
+.banner_new_arrivals_container {
+  padding-bottom: 120px;
+}
+
+.banner_new_arrivals {
+  width: 1720px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* PAYDAY2 */
+
+.banner_payday2 {
+  background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+  width: 1920px;
+  height: 968px;
+  margin: auto;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.banner_payday2_left {
+  width: 50%;
+}
+
+.banner_payday2_right {
+  width: 50%;
+}
+
+.banner_payday2_right_content {
+  padding: 120px 0 20px 50px;
+}
+
+.banner_payday2_right_content_texts {
+  width: 667px;
+  height: 685px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  gap: 55px;
+  justify-content: center;
+}
+
+.banner_payday2_right_content_texts h1 {
+  font-size: 111px;
+  font-weight: 900;
+  line-height: 137px;
+}
+
+.banner_payday2_right_content_texts h1 span {
+  background-color: white;
+  padding: 5px 20px 5px 20px;
+}
+
+.banner_payday2_right_content_texts h4 {
+  width: 643px;
+  height: 130px;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: -2%;
+  line-height: 52px;
+}
+
+.banner_payday2_right_content_texts p {
+  width: 490px;
+  height: 87px;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: -2%;
+  line-height: 52px;
+}
+
+.banner_payday2_right_content_texts p span {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2%;
+  line-height: 52px;
+}
+
+.banner_payday2_right_content_btn button {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 2%;
+  background-color: black;
+  border-radius: 7px;
+  width: 266px;
+  height: 95px;
+  color: white;
+  cursor: pointer;
+  border: 0;
+}
+
+.banner_payday2_left {
+  position: relative;
+}
+
+.banner_payday2_left .women {
+  position: absolute;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.star_two {
+  position: absolute;
+  width: 76px;
+  height: 76px;
+}
+
+.payday_star1 {
+ top: 200px;
+ left: 150px;
+}
+
+.payday_star2 {
+  right: 75px;
+  top: 115px;
+}
+
+.payday_star3 {
+  bottom: 356px;
+  right: 674px;
+}
+
+.payday_star4 {
+  right: 29px;
+  bottom: 246px;
+}
+
+/* PAYDAY */
+
+.banner_payday {
+  background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+  width: 1920px;
+  height: 968px;
+  margin: auto;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.banner_payday_left {
+  width: 50%;
+}
+
+.banner_payday_right {
+  width: 50%;
+}
+
+.banner_payday_right_content {
+  padding: 120px 0 20px 50px;
+}
+
+.banner_payday_right_content_texts {
+  width: 667px;
+  height: 685px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  gap: 55px;
+  justify-content: center;
+}
+
+.banner_payday_right_content_texts h1 {
+  font-size: 111px;
+  font-weight: 900;
+  line-height: 137px;
+}
+
+.banner_payday_right_content_texts h1 span {
+  background-color: white;
+  padding: 5px 20px 5px 20px;
+}
+
+.banner_payday_right_content_texts h4 {
+  width: 643px;
+  height: 130px;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: -2%;
+  line-height: 52px;
+}
+
+.banner_payday_right_content_texts p {
+  width: 490px;
+  height: 87px;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: -2%;
+  line-height: 52px;
+}
+
+.banner_payday_right_content_texts p span {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2%;
+  line-height: 52px;
+}
+
+.banner_payday_right_content_btn button {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 2%;
+  background-color: black;
+  border-radius: 7px;
+  width: 266px;
+  height: 95px;
+  color: white;
+  cursor: pointer;
+  border: 0;
+}
+
+.banner_payday_left {
+  position: relative;
+}
+
+.banner_payday_left .women {
+  position: absolute;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.star_two {
+  position: absolute;
+  width: 76px;
+  height: 76px;
+}
+
+.payday_star1 {
+ top: 200px;
+ left: 150px;
+}
+
+.payday_star2 {
+  right: 75px;
+  top: 115px;
+}
+
+.payday_star3 {
+  bottom: 356px;
+  right: 674px;
+}
+
+.payday_star4 {
+  right: 29px;
+  bottom: 246px;
+}
+
+.banner_youngs_fovourite_head {
+  padding: 50px 0 80px 100px ;
+}
+
+.banner_youngs_fovourite_head_content {
+  width: 511px;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.banner_youngs_fovourite_head_content img {
+  width: 186px;
+  height: 35px;
+  position: absolute;
+  top: 25px;
+  left: 281px;
+  z-index: 0;
+}
+
+.banner_youngs_fovourite_head_content h2 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 6%;
+  position: relative;
+  z-index: 1;
+}
+
+.youngs_fovourite_card1_content img {
+  cursor: pointer;
+}
+
+.youngs_fovourite_card2_content img {
+  cursor: pointer;
+}
+
+.youngs_fovourite_card1_content_description {
+  display: flex;
+  align-items: center;
+}
+
+.youngs_fovourite_card2_content_description {
+  display: flex;
+  align-items: center; 
+}
+
+.text h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: -4%;
+}
+
+.text p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: -4%;
+}
+
+.banner_youngs_fovourite_container {
+  padding-bottom: 275px;
+}
+
+.banner_youngs_fovourite {
+  width: 1720px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner_download_app {
+  width: 1493px;
+  height: 710px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.banner_download_app_left {
+  width: 50%;
+}
+
+.banner_download_app_right {
+  width: 50%;
+}
+
+.banner_download_app_left_content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px 0 50px 50px;
+}
+
+.banner_download_app_left_content_texts h1 {
+  width: 535px;
+  height: 144px;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 72px;
+  letter-spacing: 6%;
+}
+
+.banner_download_app_left_content p {
+  width: 419px;
+  height: 61px;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -4%;
+  line-height: 35px;
+  color: rgba(124, 124, 124, 1);
+}
+
+.banner_download_app_left_content_btns {
+ width: 427px;
+ height: 71px;
+}
+
+.banner_download_app_left_content_btns img {
+  width: 204px;
+  height: 71px;
+  cursor: pointer;
+}
+
+.banner_download_app_right {
+  position: relative;
+}
+
+.banner_download_app_right .phone {
+  position: absolute;
+  object-fit: cover;
+  bottom: 70px;
+  left: 200px;
+  z-index: 3;
+}
+
+.circles {
+  position: absolute;
+}
+
+.circle1 {
+  bottom: 185px;
+  left: 115px;
+  z-index: 0;
+}
+
+.circle2 {
+  bottom: 282px;
+  right: 88px;
+  z-index: 2;
+}
+
+.circle3 {
+  bottom: 235px;
+  right: 40px;
+  z-index: 1;
+}
+
+.circle4 {
+  top: -117px;
+  right: 16px;
+}
+
+.circle5 {
+  bottom: 165px;
+  left: 100px;
+}
+
+.circle6 {
+  bottom: 244px;
+  right: -10px;
+}
+
+.circle7 {
+  bottom: 792px;
+  right: 566px;
+}
+
+.shopping_community {
+  background-color: rgba(229, 198, 67, 1);
+  width: 1920px;
+  height: 623px;
+}
+
+.shopping_community_content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+}
+
+.shopping_community_content h2 {
+  width: 966px;
+  height: 124px;
+  font-size: 55px;
+  font-weight: 900;
+  letter-spacing: 3%;
+  line-height: 70px;
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.shopping_community_content p {
+  width: 1010px;
+  height: 29px;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 3%;
+  line-height: 35px;
+  color: rgba(255, 252, 248, 1);
+}
+
+.shopping_community_content_btns input {
+  width: 574px;
+  height: 87px;
+  background-color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 3%;
+  line-height: 35px;
+  color: rgba(118, 118, 118, 1);
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+}
+
+.shopping_community_content_btns button {
+  width: 161px;
+  height: 67px;
+  background-color: black;
+  font-size: 33px;
+  font-weight: 500;
+  letter-spacing: 3%;
+  line-height: 35px;
+  color: white; 
+  border-radius: 8px;
+  border: none;
+  position: absolute;
+  left: 1085px;
+  bottom: 152px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+
+.fashion {
+  width: 1920px;
+  height: 545px;
+  margin: auto;
+  background-color: black;
+}
+
+.fashion_content_head {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fashion_content_head h2 {
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 3%;
+  line-height: 60px;
+  color: white;
+}
+
+.fashion_content_head p {
+  width: 415px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2%;
+  line-height: 40px;
+  color: rgba(142, 142, 142, 1);
+}
+
+.social_icons {
+  width: 250px;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social_icons img {
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+}
+
+.footer_column h3 {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2%;
+  line-height: 40px;
+  color: rgba(217, 217, 217, 1);
+  margin-bottom: 20px;
+  margin-right: 140px;
+  cursor: pointer;
+}
+
+.footer_column ul li {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2%;
+  line-height: 40px;
+  color:  rgba(142, 142, 142, 1);
+  margin-bottom: 20px;
+  margin-right: 140px;
+}
+
+.fashion_content {
+  width: 1720px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.fashion_content_footer_columns {
+  display: flex;
+
+}
+
+.burger_menu {
+  width: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.burger_menu div {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 3px 0;
+}
+
+.banner_payday2 {
+  display: none;
+}
+
+
+@media (max-width:1440px) {
+  .container {
+    width: 1440px;
+    margin: auto;
+  }
+
+  nav {
+    width: 1240px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .banner {
+    background-color: rgba(244, 245, 245, .1);
+    width: 1240px;
+    height: 675px;
+    margin: auto;
+    border-radius: 59px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+  }
+
+  .banner_left_content_texts h1 {
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 120px;
+    text-transform: uppercase;
+  }
+
+  .banner_left_content p {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -5%;
+    line-height: 40px;
+  } 
+
+  .banner_left_content_btns button {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -3%;
+    background-color: black;
+    border-radius: 7px;
+    width: 160px;
+    height: 66px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+
+  .banner_right .women {
+    width: 85%;
+    height: 576px;
+  }
+
+  .banner_left_content {
+    padding: 0;
+  }
+
+  /* BRANDS */
+
+  .brands {
+    width: 1440px;
+    height: 186px;
+    background-color: rgba(235, 217, 107, 1);
+    margin: auto;
+  }
+
+  /* NEW ARRIVALS */
+
+  .banner_new_arrivals {
+    width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .card1_content img{
+    width: 80%;
+  }
+
+  .card2_content img {
+    width: 80%;
+  }
+
+  .card3_content img {
+    width: 80%;
+  }
+
+  .card1_content_description {
+    display: flex;
+    align-items: center;
+    width: 78%;
+  }
+
+  .card2_content_description {
+    display: flex;
+    align-items: center;
+    width: 78%;
+  }
+
+  .card3_content_description {
+    display: flex;
+    align-items: center;
+    width: 78%;
+  }
+
+  .text h3 {
+    width: 80%;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -4%;
+  }
+
+  .text p {
+    width: 80%;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: -4%;
+  }
+
+  .arrow {
+    width: 15%;
+  }
+
+  /* BANNER PAY DAY */
+
+  .banner_payday {
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    width: 1440px;
+    height: 708px;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+  }
+
+  .banner_payday_left .women {
+    width: 100%;
+  }
+
+  .banner_payday_right {
+    width: 50%;
+  }
+
+  .banner_payday_right_content_texts {
+    width: 630px;
+    height: 685px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .banner_payday_right_content {
+    padding: 50px 0 20px 50px;
+  }
+
+  .banner_payday_right_content_texts h1 {
+    font-size: 85px;
+    font-weight: 900;
+    line-height: 110px;
+  }
+
+  .banner_payday_right_content_texts h4 {
+    width: 543px;
+    height: 130px;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -2%;
+    line-height: 52px;
+  }
+
+  .banner_payday_right_content_texts p {
+    width: 449px;
+    height: 87px;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -2%;
+    line-height: 52px;
+  }
+
+  .banner_payday_right_content_btn button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 42px;
+    letter-spacing: 2%;
+    background-color: black;
+    border-radius: 7px;
+    width: 160px;
+    height: 66px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    margin-top: 50px;
+  }
+
+  .payday_star2 {
+    right: 75px;
+    top: 56px;
+  }
+
+  .payday_star1 {
+    top: 149px;
+    left: 95px;
+  }
+
+  .payday_star4 {
+    right: 29px;
+    bottom: 187px;
+  }
+
+  .payday_star3 {
+    bottom: 235px;
+    right: 531px;
+  }
+
+  /* YOUNGS FAVORITE */
+
+  
+  .banner_youngs_fovourite {
+    width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .youngs_fovourite_card1_content img {
+    width: 90%;
+  }
+  .youngs_fovourite_card2_content img {
+    width: 90%;
+  }
+
+  .youngs_fovourite_card1_content_description {
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
+
+  .youngs_fovourite_card2_content_description {
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
+
+  .arrow2 {
+    width: 10%;
+  }
+
+  .banner_youngs_fovourite_container {
+    padding-bottom: 0;
+  }
+
+  /* APP */
+
+  .banner_download_app {
+    width: 1240px;
+    height: 710px;
+    margin: auto;
+    margin-top: 208px;
+    margin-bottom: 50px;
+    display: flex;
+  }
+
+  .banner_download_app_left_content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0px 0 0px 50px;
+  }
+
+  .banner_download_app_right .phone {
+    position: absolute;
+    object-fit: cover;
+    bottom: 70px;
+    left: 82px;
+    z-index: 3;
+  }
+
+  .circle1 {
+    bottom: 188px;
+    left: 5px;
+    z-index: 0;
+  }
+
+  .circle3 {
+    bottom: 234px;
+    right: 31px;
+    z-index: 1;
+  }
+
+  .circle2 {
+    bottom: 282px;
+    right: 79px;
+    z-index: 2;
+  }
+
+  .circle5 {
+    bottom: 202px;
+    left: 40px;
+  }
+
+  /* SHOPPING COMMUNITY */
+
+  .shopping_community {
+    background-color: rgba(229, 198, 67, 1);
+    width: 1440px;
+    height: 623px;
+  }
+
+  .fashion {
+    width: 1440px;
+    height: 545px;
+    margin: auto;
+    background-color: black;
+  }
+
+  .fashion_content {
+    width: 1240px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+
+}
+
+@media (max-width:1024px) {
+  .container {
+    width: 1024px;
+    margin: auto;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .burger_menu {
+    display: block;
+  }
+
+  nav {
+    width: 824px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* BANNER 1 */
+
+  .banner {
+    background-color: rgba(244, 245, 245, .1);
+    width: 1024px;
+    height: 635px;
+    margin: auto;
+    border-radius: 59px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+  .banner_left_content_texts h1 {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: uppercase;
+  }
+
+  .banner_left_content p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -5%;
+    line-height: 40px;
+    padding-top: 10px;
+  }
+
+  .banner_left_content_btns {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .banner_left_content {
+    padding: 50px 27px 50px 50px;
+  }
+
+  .banner_right .women {
+    width: 90%;
+    height: 493px;
+  }
+
+  .banner_left {
+    width: 40%;
+  }
+
+  .banner_right {
+    width: 60%;
+  }
+
+  .star1 {
+    top: 18%;
+    left: -3%;
+  }
+
+  .star2 {
+    right: 30%;
+    top: 20%;
+  }
+
+  .star4 {
+    right: 10%;
+    bottom: 8%;
+  }
+
+  .star3 {
+    bottom: 1%;
+  }
+
+  /* BRANDS */
+
+  .brands {
+    width: 1024px;
+    height: 186px;
+    background-color: rgba(235, 217, 107, 1);
+    margin: auto;
+  }
+
+  .brands_logo_1 {
+    width: 11%;
+    height: 43px;
+    cursor: pointer;
+  }
+
+  .brands_logo_2 {
+    width: 11%;
+    height: 43px;
+    cursor: pointer;
+  }
+
+  .brands_logo_3 {
+    width: 16%;
+    height: 39px;
+    cursor: pointer;
+  }
+
+  .brands_logo_4 {
+    width: 16%;
+    height: 34px;
+    cursor: pointer;
+  }
+
+  .brands_logo_5 {
+    width: 12%;
+    height: 49px;
+    cursor: pointer;
+  }
+
+  .brands_logo_6 {
+    width: 12%;
+    height: 34px;
+    cursor: pointer;
+  }
+
+  /* ARRIVALS */
+
+  .banner_new_arrivals_head {
+    padding: 50px 0 50px 50px;
+  }
+
+  .banner_new_arrivals {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .head_title {
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 6%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .head_image {
+    width: 137px;
+    height: 33px;
+    position: absolute;
+    top: 19px;
+    left: 166px;
+    z-index: 0;
+  }
+
+  .card1 {
+    text-align: center;
+  }
+
+  .card1_content_description {
+    margin: auto;
+  }
+
+  .card2 {
+    text-align: center;
+  }
+
+  .card2_content_description {
+    margin: auto;
+  }
+
+  .card3 {
+    text-align: center;
+  }
+
+  .card3_content_description {
+    margin: auto;
+  }
+
+  /* PAY DAY */
+
+  .banner_payday {
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    width: 1024px;
+    height: 505px;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+  }
+
+  .banner_payday_right_content_texts {
+    width: 363px;
+    height: 685px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .banner_payday_right_content {
+    padding: 30px 0 0 50px;
+  }
+
+  .banner_payday_right_content_texts h1 {
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 90px;
+  }
+
+  .banner_payday_right_content_texts h4 {
+    width: 378px;
+    height: 64px;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: -2%;
+    line-height: 34px;
+  }
+
+  .banner_payday_right_content_texts p {
+    width: 70%;
+    height: 56px;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -2%;
+    line-height: 34px;
+  }
+
+  .banner_payday_right_content_texts p span {
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    line-height: 34px;
+  }
+
+  .banner_payday_right_content_btn button {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 42px;
+    letter-spacing: 2%;
+    background-color: black;
+    border-radius: 7px;
+    width: 142px;
+    height: 56px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    margin-top: 19px;
+  }
+
+
+  /* YOUNGS FAVORITE */
+
+  .banner_youngs_fovourite_head {
+    padding: 0 0 50px 50px;
+  }
+
+  .banner_youngs_fovourite {
+    width: 824px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .banner_youngs_fovourite {
+    text-align: center;
+  }
+
+  /* APP  */
+
+  .banner_download_app {
+    width: 1024px;
+    height: 710px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    display: flex;
+  }
+
+  .banner_download_app_left_content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 143px 0 0px 61px;
+  }
+
+  .banner_download_app_left_content_texts h1 {
+    width: 373px;
+    height: 92px;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 6%;
+  }
+
+  .banner_download_app_left_content p {
+    width: 419px;
+    height: 61px;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: -4%;
+    line-height: 30px;
+    color: rgba(124, 124, 124, 1);
+  }
+
+  .banner_download_app_left_content_btns img {
+    width: 171px;
+    height: 53px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .banner_download_app_right .phone {
+    width: 300px;
+    height: 548px;
+    position: absolute;
+    object-fit: cover;
+    bottom: 163px;
+    left: 113px;
+    z-index: 3;
+  }
+
+  .circle1 {
+    width: 90%;
+    bottom: 205px;
+    left: 37px;
+    z-index: 0;
+  }
+
+  .circle3 {
+    width: 80%;
+    bottom: 233px;
+    right: 40px;
+    z-index: 1;
+  }
+
+  .circle2 {
+    width: 70%;
+    bottom: 256px;
+    right: 63px;
+    z-index: 2;
+  }
+
+  .circle4 {
+    top: 18px;
+    right: 31px;
+  }
+
+  .circle5 {
+    bottom: 226px;
+    left: 53px;
+  }
+
+  .circle6 {
+    bottom: 248px;
+    right: 52px;
+  }
+
+  .circle7 {
+    bottom: 600px;
+    right: 425px;
+  }
+
+  /* FOOTER  */
+
+  .shopping_community {
+    background-color: rgba(229, 198, 67, 1);
+    width: 1024px;
+    height: 623px;
+  }
+
+  .shopping_community_content_btns button {
+    width: 139px;
+    height: 55px;
+    background-color: black;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 3%;
+    line-height: 35px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    left: 672px;
+    bottom: 159px;
+    cursor: pointer;
+  }
+
+  .shopping_community_content h2 {
+    width: 966px;
+    height: 124px;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 3%;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .shopping_community_content p {
+    width: 1010px;
+    height: 29px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3%;
+    line-height: 35px;
+    color: rgba(255, 252, 248, 1);
+  }
+  .shopping_community_content_btns input {
+    width: 594px;
+    height: 67px;
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3%;
+    line-height: 35px;
+    color: rgba(118, 118, 118, 1);
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+  }
+
+  .fashion {
+    width: 1024px;
+    height: 545px;
+    margin: auto;
+    background-color: black;
+  }
+
+  .fashion_content {
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .fashion_content_footer_columns {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fashion_content_head h2 {
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 3%;
+    line-height: 40px;
+    color: white;
+  }
+
+  .fashion_content_head p {
+    width: 330px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 2%;
+    line-height: 32px;
+    color: rgba(142, 142, 142, 1);
+  }
+
+  .footer_column {
+    width: 25%;
+  }
+
+  .footer_column h3 {
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 2%;
+    line-height: 32px;
+    color: rgba(217, 217, 217, 1);
+    margin-bottom: 20px;
+    margin-right: 22px;
+    cursor: pointer;
+  }
+
+
+}
+
+@media (max-width:768px) {
+  .container {
+    width: 768px;
+    margin: auto;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .burger_menu {
+    display: block;
+  }
+
+  nav {
+    width: 568px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav img {
+    width: 30%;
+    height: 44px;
+    cursor: pointer;
+  }
+
+  .navbar_button button {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    letter-spacing: -3%;
+    background-color: black;
+    border-radius: 7px;
+    width: 128px;
+    height: 37px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+
+  .banner {
+    background-color: rgba(244, 245, 245, .1);
+    width: 568px;
+    height: 940px;
+    margin: auto;
+    border-radius: 59px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner_left {
+    width: 100%;
+  }
+
+  .banner_right {
+    width: 100%;
+    height: 493px;
+  }
+
+  .banner_right .women {
+    width: 100%;
+    height: 493px;
+  }
+
+  .banner_left_content_texts h1 {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: uppercase;
+  }
+
+  .star1 {
+    top: 1%;
+    left: -3%;
+  }
+
+  .star2 {
+    right: 13%;
+    top: 5%;
+  }
+
+  .star3 {
+    bottom: 1%;
+  }
+
+  .star4 {
+    right: 5%;
+    bottom: 8%;
+  }
+
+  /* BRANDS */
+
+  .brands {
+    width: 768px;
+    height: 93px;
+    background-color: rgba(235, 217, 107, 1);
+    margin: auto;
+  }
+
+  .brands_logo {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* NEW ARRIVALS */
+
+  .banner_new_arrivals {
+    width: 568px;
+    height: 2900px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card1_content img {
+    width: 100%;
+  }
+
+  .card2_content img {
+    width: 100%;
+  }
+
+  .card3_content img {
+    width: 100%;
+  }
+
+  .text h3 {
+    width: 100%;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -4%;
+  }
+
+  .text p {
+    width: 100%;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: -4%;
+  }
+
+  .card1_content_description {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+  }
+  
+  .card2_content_description {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .card3_content_description {
+    width: 100%;
+    display: flex;
+    align-items: center;  
+    margin: 0;
+  }
+  
+  .arrow {
+    width:10%
+  }
+  
+  .text {
+    width: 90%;
+  }
+
+  .card1 {
+    text-align: left;
+  }
+
+  
+  .card2 {
+    text-align: left;
+  }
+
+  
+  .card3 {
+    text-align: left;
+  }
+
+
+  /* PAYDAY */
+
+  .banner_payday {
+    display: none;
+  }
+
+  .banner_payday2 {
+    display: block;
+  }
+
+  .banner_payday2 {
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    width: 768px;
+    height: 1295px;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .banner_payday2_left {
+    height: 500px;
+    width: 100%;
+  }
+
+  .banner_payday2_left {
+    width: 100%;
+    height: 837px;
+  }
+
+  .banner_payday2_right {
+    height: 500px;
+    width: 50%;
+  }
+
+  .banner_payday2_left .women {
+    width: 100%;
+    height: 725px;
+  }
+
+  .star_two {
+    width: 50px;
+    height: 50px;
+  }
+
+  .payday_star1 {
+    top: 187px;
+    left: 133px;
+  }
+
+  .payday_star2 {
+    right: 75px;
+    top: 154px;
+  }
+
+  .payday_star3 {
+    bottom: 272px;
+    right: 575px;
+  }
+
+  .payday_star4 {
+    right: 106px;
+    bottom: 158px;
+  }
+
+  .banner_payday2_right_content_texts h1 {
+    width: 100%;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 90px;
+  }
+
+  .banner_payday2_right_content_texts {
+    width: 623px;
+    height: 685px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .banner_youngs_fovourite_head_content h2 {
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 6%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .banner_youngs_fovourite_head_content img {
+    width: 164px;
+    height: 22px;
+    position: absolute;
+    top: 28px;
+    left: 216px;
+    z-index: 0;
+  }
+
+  .banner_youngs_fovourite {
+    width: 524px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
+  }
+
+  /* APP  */
+
+  .banner_download_app {
+    width: 768px;
+    height: 1166px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .banner_download_app_left {
+    width: 100%;
+  }
+
+  .banner_download_app_left_content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 75px 0 0px 196px;
+  }
+
+  .circle1 {
+    width: 90%;
+    bottom: 351px;
+    left: 183px;
+    z-index: 0;
+  }
+
+  .circle3 {
+    width: 80%;
+    bottom: 371px;
+    right: -125px;
+    z-index: 1;
+  }
+
+  .circle2 {
+    width: 70%;
+    bottom: 388px;
+    right: -108px;
+    z-index: 2;
+  }
+
+  .banner_download_app_right .phone {
+    width: 272px;
+    height: 442px;
+    position: absolute;
+    object-fit: cover;
+    bottom: 300px;
+    left: 219px;
+    z-index: 3;
+  }
+
+  .circle4 {
+    width: 8%;
+    top: -309px;
+    right: -151px;
+  }
+
+  .circle5 {
+    width: 5%;
+    bottom: 336px;
+    left: 195px;
+  }
+
+  .circle6 {
+    width: 3%;
+    bottom: 396px;
+    right: -145px;
+  }
+
+  .circle7 {
+    width: 3%;
+    bottom: 651px;
+    right: 191px;
+  }
+
+
+  /* FOOTER   */
+
+  .shopping_community {
+    background-color: rgba(229, 198, 67, 1);
+    width: 768px;
+    height: 623px;
+  }
+
+  .shopping_community_content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    position: relative;
+  }
+
+  .shopping_community_content h2 {
+    width: 677px;
+    height: 124px;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 3%;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .shopping_community_content p {
+    width: 701px;
+    height: 29px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3%;
+    line-height: 20px;
+    color: rgba(255, 252, 248, 1);
+  }
+
+  .shopping_community_content_btns button {
+    width: 139px;
+    height: 55px;
+    background-color: black;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 3%;
+    line-height: 35px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    left: 547px;
+    bottom: 185px;
+    cursor: pointer;
+  }
+
+  .fashion {
+    width: 768px;
+    height: 317px;
+    margin: auto;
+    background-color: black;
+  }
+
+  .fashion_content_head h2 {
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 3%;
+    line-height: 40px;
+    color: white;
+  }
+
+  .fashion_content_head p {
+    width: 239px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2%;
+    line-height: 30px;
+    color: rgba(142, 142, 142, 1);
+  }
+
+  .social_icons {
+    width: 193px;
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social_icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .footer_column h3 {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2%;
+    line-height: 32px;
+    color: rgba(217, 217, 217, 1);
+    margin-bottom: 12px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .footer_column ul li {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2%;
+    line-height: 20px;
+    color: rgba(142, 142, 142, 1);
+    margin-bottom: 20px;
+    margin-right: 140px;
+  }
+
+  .fashion_content {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+  }
+}
+
+@media (max-width:425px) {
+
+  .container {
+    width: 425px;
+    margin: auto;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .burger_menu {
+    display: block;
+  }
+
+  .burger_menu div {
+    width: 60%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    margin: 3px 0;
+  }
+
+  nav {
+    width: 325px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav img {
+    width: 33%;
+    height: 28px;
+    cursor: pointer;
+  }
+
+  .navbar_button button {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: -3%;
+    background-color: black;
+    border-radius: 7px;
+    width: 79px;
+    height: 29px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+
+  .banner {
+    background-color: rgba(244, 245, 245, .1);
+    width: 415px;
+    height: 716px;
+    margin: auto;
+    border-radius: 59px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner_left {
+    width: 100%;
+  }
+
+  .banner_right {
+    width: 100%;
+    height: 447px;
+  }
+
+  .banner_right .women {
+    width: 100%;
+    height: 365px;
+  }
+
+  .banner_left_content {
+    padding: 0 0 0 10px;
+  }
+
+  .banner_left_content_texts h1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 80px;
+    text-transform: uppercase;
+  }
+
+  .banner_left_content p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -5%;
+    line-height: 30px;
+    padding-top: 10px;
+  }
+
+  .banner_left_content_btns img {
+    width: 30%;
+    height: 22px;
+  }
+
+  .banner_left_content_btns button {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: -3%;
+    background-color: black;
+    border-radius: 7px;
+    width: 79px;
+    height: 29px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+
+  .star1 {
+    width: 30px;
+    height: 30px;
+    top: 17%;
+    left: 2%;
+  }
+
+  .star2 {
+    width: 30px;
+    height: 30px;
+    right: 19%;
+    top: 23%;
+  }
+
+  .star3 {
+    width: 30px;
+    height: 30px;
+    bottom: 1%;
+  }
+
+  .star4 {
+    width: 30px;
+    height: 30px;
+    right: 5%;
+    bottom: 8%;
+  }
+
+  /* BRANDS */
+
+  .brands {
+    width: 425px;
+    height: 170px;
+    background-color: rgba(235, 217, 107, 1);
+    margin: auto;
+  }
+
+  .brands_logo {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .brands_logo_1 {
+    width: 15%;
+    height: 34px;
+    cursor: pointer;
+  }
+
+  .brands_logo_2 {
+    width: 15%;
+    height: 43px;
+    cursor: pointer;
+  }
+
+  .brands_logo_3 {
+    width: 25%;
+    height: 29px;
+    cursor: pointer;
+  }
+
+  .brands_logo_4 {
+    width: 30%;
+    height: 16px;
+    cursor: pointer;
+  }
+
+  .brands_logo_5 {
+    width: 19%;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .brands_logo_6 {
+    width: 25%;
+    height: 34px;
+    cursor: pointer;
+  }
+
+  /* NEW ARRIVALS */
+
+  .head_title {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 6%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .banner_new_arrivals_head {
+    padding: 20px 0 20px 100px;
+  }
+
+  .banner_new_arrivals_head_content {
+    width: 225px;
+    height: 58px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .head_image {
+    width: 95px;
+    height: 23px;
+    position: absolute;
+    top: 21px;
+    left: 139px;
+    z-index: 0;
+  }
+
+  .banner_new_arrivals {
+    width: 360px;
+    height: 1980px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card1_content img {
+    width: 100%;
+  }
+
+  .card2_content img {
+    width: 100%;
+  }
+
+  .card3_content img {
+    width: 100%;
+  }
+
+  .text h3 {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -4%;
+  }
+
+  .text p {
+    width: 90%;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -4%;
+  }
+
+  .card1_content_description {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+  }
+  
+  .card2_content_description {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .card3_content_description {
+    width: 100%;
+    display: flex;
+    align-items: center;  
+    margin: 0;
+  }
+  
+  .arrow {
+    width:10%
+  }
+  
+  .text {
+    width: 80%;
+  }
+
+  .card1 {
+    text-align: left;
+  }
+
+  
+  .card2 {
+    text-align: left;
+  }
+
+  
+  .card3 {
+    text-align: left;
+  }
+
+  .banner_new_arrivals_container {
+    padding-bottom: 0;
+  }
+
+
+  /* PAYDAY */
+
+  .banner_payday {
+    display: none;
+  }
+
+  .banner_payday2 {
+    display: block;
+  }
+
+  .banner_payday2_right_content {
+    padding: 20px 0 0 10px;
+  }
+
+  .banner_payday2 {
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    width: 425px;
+    height: 1100px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .banner_payday2_left {
+    height: 500px;
+    width: 100%;
+  }
+
+  .banner_payday2_left {
+    width: 100%;
+    height: 837px;
+  }
+
+  .banner_payday2_right {
+    height: 260px;
+    width: 50%;
+  }
+
+  .banner_payday2_left .women {
+    width: 100%;
+    height: 725px;
+  }
+
+  .star_two {
+    width: 50px;
+    height: 50px;
+  }
+
+  .payday_star1 {
+    top: 217px;
+    left: 38px;
+  }
+
+  .payday_star2 {
+    right: 18px;
+    top: 154px;
+  }
+
+  .payday_star3 {
+    bottom: 315px;
+    right: 355px;
+  }
+
+  .payday_star4 {
+    right: 2px;
+    bottom: 198px;
+  }
+
+  .banner_payday2_right_content_texts h1 {
+    width: 100%;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 80px;
+  }
+
+  .banner_payday2_right_content_texts h4 {
+    width: 275px;
+    height: 58px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -2%;
+    line-height: 32px;
+  }
+
+  .banner_payday2_right_content_texts p span {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    line-height: 32px;
+  }
+
+  .banner_payday2_right_content_texts p {
+    width: 165px;
+    height: 100px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -2%;
+    line-height: 22px;
+  }
+
+  .banner_payday2_right_content_texts {
+    width: 360px;
+    height: 685px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .banner_payday2_right_content_btn button {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: -3%;
+    background-color: black;
+    border-radius: 7px;
+    width: 95px;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+
+  /* YOUNGS FAVORITE */
+
+  .banner_youngs_fovourite_head_content {
+    width: 276px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .banner_youngs_fovourite_head_content h2 {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 6%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .banner_youngs_fovourite_head_content img {
+    width: 107px;
+    height: 14px;
+    position: absolute;
+    top: 27px;
+    left: 190px;
+    z-index: 0;
+  }
+
+  .banner_youngs_fovourite {
+    width: 360px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .arrow2 {
+    width: 15%;
+  }
+
+  /* APP  */
+
+  .banner_download_app {
+    width: 375px;
+    height: 1166px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .banner_download_app_left {
+    width: 100%;
+  }
+
+  .banner_download_app_left_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 25px 0 0px 0;
+  }
+
+  .banner_download_app_left_content_texts h1 {
+    width: 254px;
+    height: 92px;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 6%;
+  }
+
+  .banner_download_app_left_content p {
+    width: 241px;
+    height: 58px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -4%;
+    line-height: 20px;
+    color: rgba(124, 124, 124, 1);
+  }
+
+  .banner_download_app_left_content_btns img {
+    width: 105px;
+    height: 35px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .banner_download_app_left_content_btns {
+    width: 225px;
+    height: 35px;
+  }
+
+  .banner_download_app_right {
+    width: 100%;
+  }
+
+  .circle1 {
+    width: 70%;
+    bottom: 584px;
+    left: 65px;
+    z-index: 0;
+  }
+
+  .circle3 {
+    width: 60%;
+    bottom: 600px;
+    right: 66px;
+    z-index: 1;
+  }
+
+  .circle2 {
+    width: 50%;
+    bottom: 620px;
+    right: 85px;
+    z-index: 2;
+  }
+
+  .banner_download_app_right .phone {
+    width: 202px;
+    height: 361px;
+    position: absolute;
+    object-fit: cover;
+    bottom: 532px;
+    left: 93px;
+    z-index: 3;
+  }
+
+  .circle4 {
+    width: 5%;
+    top: -374px;
+    right: 65px;
+  }
+
+  .circle5 {
+    width: 3%;
+    bottom: 585px;
+    left: 89px;
+  }
+
+  .circle6 {
+    width: 2%;
+    bottom: 594px;
+    right: 58px;
+  }
+
+  .circle7 {
+    width: 2%;
+    bottom: 817px;
+    right: 287px;
+  }
+
+
+  /* FOOTER   */
+
+  .shopping_community {
+    background-color: rgba(229, 198, 67, 1);
+    width: 425px;
+    height: 300px;
+  }
+
+  .shopping_community_content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    position: relative;
+  }
+
+  .shopping_community_content h2 {
+    width: 384px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 3%;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .shopping_community_content p {
+    width: 279px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3%;
+    line-height: 19px;
+    color: rgba(255, 252, 248, 1);
+  }
+
+  .shopping_community_content_btns button {
+    width: 61px;
+    height: 29px;
+    background-color: black;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 3%;
+    line-height: 20px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    left: 277px;
+    bottom: 65px;
+    cursor: pointer;
+  }
+
+  .shopping_community_content_btns input {
+    width: 248px;
+    height: 39px;
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3%;
+    line-height: 35px;
+    color: rgba(118, 118, 118, 1);
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+  }
+
+  .fashion {
+    width: 425px;
+    height: 600px;
+    margin: auto;
+    background-color: black;
+  }
+
+  .fashion_content_head {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .fashion_content_head h2 {
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 3%;
+    line-height: 40px;
+    color: white;
+  }
+
+  .fashion_content_head p {
+    width: 189px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2%;
+    line-height: 30px;
+    color: rgba(142, 142, 142, 1);
+  }
+
+  .social_icons {
+    width: 193px;
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social_icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .footer_column h3 {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2%;
+    line-height: 32px;
+    color: rgba(217, 217, 217, 1);
+    margin-bottom: 12px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .footer_column ul li {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2%;
+    line-height: 20px;
+    color: rgba(142, 142, 142, 1);
+    margin-bottom: 20px;
+    margin-right: 140px;
+  }
+
+  .fashion_content {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .fashion_content_footer_columns {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer_column {
+    width: 32%;
+  }
+}
+
+@media (max-width:375px) {
+  .container {
+    width: 375px;
+    margin: auto;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .burger_menu {
+    display: block;
+  }
+
+  .burger_menu div {
+    width: 60%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    margin: 3px 0;
+  }
+
+  nav {
+    width: 275px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav img {
+    width: 33%;
+    height: 23px;
+    cursor: pointer;
+  }
+
+  .navbar_button button {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: -3%;
+    background-color: black;
+    border-radius: 7px;
+    width: 79px;
+    height: 29px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+
+  /* BANNER */
+
+  .banner {
+    background-color: rgba(244, 245, 245, .1);
+    width: 255px;
+    height: 420px;
+    margin: auto;
+    border-radius: 59px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner_left {
+    width: 100%;
+  }
+
+  .banner_right {
+    width: 100%;
+    height: 275px;
+  }
+
+  .banner_right .women {
+    width: 100%;
+    height: 214px;
+  }
+
+  .banner_left_content {
+    padding: 0;
+  }
+
+  .banner_left_content_texts h1 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .banner_left_content p {
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: -5%;
+    line-height: 20px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .banner_left_content_btns img {
+    width: 30%;
+    height: 22px;
+  }
+
+  .banner_left_content_btns {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-top: 30px;
+    justify-content: center;
+  }
+
+  .banner_left_content_btns button {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: -3%;
+    background-color: black;
+    border-radius: 7px;
+    width: 79px;
+    height: 29px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+
+  .star1 {
+    width: 25px;
+    height: 25px;
+    top: 17%;
+    left: 2%;
+  }
+
+  .star2 {
+    width: 25px;
+    height: 25px;
+    right: 19%;
+    top: 23%;
+  }
+
+  .star3 {
+    width: 25px;
+    height: 25px;
+    bottom: 1%;
+  }
+
+  .star4 {
+    width: 25px;
+    height: 25px;
+    right: 5%;
+    bottom: 8%;
+  }
+
+  /* BRANDS */
+
+  .brands {
+    width: 375px;
+    height: 128px;
+    background-color: rgba(235, 217, 107, 1);
+    margin: auto;
+  }
+
+  .brands_logo {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .brands_logo_1 {
+    width: 15%;
+    height: 34px;
+    cursor: pointer;
+  }
+
+  .brands_logo_2 {
+    width: 15%;
+    height: 43px;
+    cursor: pointer;
+  }
+
+  .brands_logo_3 {
+    width: 25%;
+    height: 29px;
+    cursor: pointer;
+  }
+
+  .brands_logo_4 {
+    width: 30%;
+    height: 16px;
+    cursor: pointer;
+  }
+
+  .brands_logo_5 {
+    width: 19%;
+    height: 32px;
+    cursor: pointer;
+  }
+
+  .brands_logo_6 {
+    width: 25%;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  /* NEW ARRIVALS */
+
+  .head_title {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 6%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .banner_new_arrivals_head {
+    padding: 20px 0 20px 100px;
+  }
+
+  .banner_new_arrivals_head_content {
+    width: 175px;
+    height: 58px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .head_image {
+    width: 62px;
+    height: 12px;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    z-index: 0;
+  }
+
+  .banner_new_arrivals {
+    width: 239px;
+    height: 1340px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around
+  }
+
+  .card1_content img {
+    width: 100%;
+  }
+
+  .card2_content img {
+    width: 100%;
+  }
+
+  .card3_content img {
+    width: 100%;
+  }
+
+  .text h3 {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -4%;
+  }
+
+  .text p {
+    width: 90%;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -4%;
+  }
+
+  .card1_content_description {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card2_content_description {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card3_content_description {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .arrow img  {
+    width: 24px;
+    height: 12px;
+  }
+  
+  .arrow {
+    width:10%
+  }
+  
+  .text {
+    width: 80%;
+  }
+
+  .card1 {
+    text-align: left;
+  }
+
+  
+  .card2 {
+    text-align: left;
+  }
+
+  
+  .card3 {
+    text-align: left;
+  }
+
+  .banner_new_arrivals_container {
+    padding-bottom: 0;
+  }
+
+
+  /* PAYDAY */
+
+  .banner_payday {
+    display: none;
+  }
+
+  .banner_payday2 {
+    display: block;
+  }
+
+  .banner_payday2_right_content {
+    padding: 20px 0 0 10px;
+  }
+
+  .banner_payday2 {
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    width: 375px;
+    height: 742px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .banner_payday2_left {
+    height: 500px;
+    width: 100%;
+  }
+
+  .banner_payday2_left {
+    width: 100%;
+    height: 482px;
+  }
+
+  .banner_payday2_right {
+    height: 260px;
+    width: 50%;
+  }
+
+  .banner_payday2_left .women {
+    width: 100%;
+    height: 357px;
+  }
+
+  .star_two {
+    width: 25px;
+    height: 25px;
+  }
+
+  .payday_star1 {
+    top: 334px;
+    left: 73px;
+  }
+
+  .payday_star2 {
+    right: 76px;
+    top: 145px;
+  }
+
+  .payday_star3 {
+    bottom: 262px;
+    right: 280px;
+  }
+
+  .payday_star4 {
+    right: 51px;
+    bottom: 91px;
+  }
+
+  .banner_payday2_right_content_texts h1 {
+    width: 100%;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: center;
+  }
+
+  .banner_payday2_right_content_texts h4 {
+    width: 275px;
+    height: 58px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: -2%;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .banner_payday2_right_content_texts p span {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .banner_payday2_right_content_texts p {
+    width: 130px;
+    height: 100px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -2%;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .banner_payday2_right_content_texts {
+    width: 315px;
+    height: 685px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner_payday2_right_content_btn button {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: -3%;
+    background-color: black;
+    border-radius: 7px;
+    width: 95px;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+
+  /* YOUNGS FAVORITE */
+
+  .banner_youngs_fovourite_head_content {
+    width: 276px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .banner_youngs_fovourite_head_content h2 {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 6%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .banner_youngs_fovourite_head_content img {
+    width: 84px;
+    height: 14px;
+    position: absolute;
+    top: 26px;
+    left: 115px;
+    z-index: 0;
+  }
+
+  .banner_youngs_fovourite {
+    width: 270px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .arrow2 {
+    width: 15%;
+  }
+
+  .youngs_fovourite_card1_content_description {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  .youngs_fovourite_card2_content_description {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  /* APP  */
+
+  .banner_download_app {
+    width: 375px;
+    height: 1166px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .banner_download_app_left {
+    width: 100%;
+  }
+
+  .banner_download_app_left_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 25px 0 0px 0;
+  }
+
+  .banner_download_app_left_content_texts h1 {
+    width: 254px;
+    height: 92px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 6%;
+  }
+
+  .banner_download_app_left_content p {
+    width: 241px;
+    height: 58px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: -4%;
+    text-align: center;
+    line-height: 20px;
+    color: rgba(124, 124, 124, 1);
+    text-align: center;
+  }
+
+  .banner_download_app_left_content_btns img {
+    width: 105px;
+    height: 35px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .banner_download_app_left_content_btns {
+    width: 225px;
+    height: 35px;
+  }
+
+  .banner_download_app_right {
+    width: 100%;
+  }
+
+  .circle1 {
+    width: 70%;
+    bottom: 584px;
+    left: 65px;
+    z-index: 0;
+  }
+
+  .circle3 {
+    width: 60%;
+    bottom: 600px;
+    right: 66px;
+    z-index: 1;
+  }
+
+  .circle2 {
+    width: 50%;
+    bottom: 620px;
+    right: 85px;
+    z-index: 2;
+  }
+
+  .banner_download_app_right .phone {
+    width: 202px;
+    height: 361px;
+    position: absolute;
+    object-fit: cover;
+    bottom: 532px;
+    left: 93px;
+    z-index: 3;
+  }
+
+  .circle4 {
+    width: 5%;
+    top: -374px;
+    right: 65px;
+  }
+
+  .circle5 {
+    width: 3%;
+    bottom: 585px;
+    left: 89px;
+  }
+
+  .circle6 {
+    width: 2%;
+    bottom: 594px;
+    right: 58px;
+  }
+
+  .circle7 {
+    width: 2%;
+    bottom: 817px;
+    right: 287px;
+  }
+
+
+  /* FOOTER   */
+
+  .shopping_community {
+    background-color: rgba(229, 198, 67, 1);
+    width: 375px;
+    height: 300px;
+  }
+
+  .shopping_community_content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    position: relative;
+  }
+
+  .shopping_community_content h2 {
+    width: 335px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 3%;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .shopping_community_content p {
+    width: 279px;
+    height: 25px;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 3%;
+    line-height: 15px;
+    color: rgba(255, 252, 248, 1);
+  }
+
+  .shopping_community_content_btns button {
+    width: 61px;
+    height: 24px;
+    background-color: black;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 3%;
+    line-height: 20px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    left: 253px;
+    bottom: 67px;
+    cursor: pointer;
+  }
+
+  .shopping_community_content_btns input {
+    width: 248px;
+    height: 29px;
+    background-color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 3%;
+    line-height: 35px;
+    color: rgba(118, 118, 118, 1);
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+  }
+
+  .fashion {
+    width: 375px;
+    height: 515px;
+    margin: auto;
+    background-color: black;
+  }
+
+  .fashion_content_head {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .fashion_content_head h2 {
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 3%;
+    line-height: 40px;
+    color: white;
+  }
+
+  .fashion_content_head p {
+    width: 189px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 2%;
+    line-height: 30px;
+    color: rgba(142, 142, 142, 1);
+  }
+
+  .social_icons {
+    width: 193px;
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social_icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .footer_column h3 {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 2%;
+    line-height: 32px;
+    color: rgba(217, 217, 217, 1);
+    margin-bottom: 12px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .footer_column ul li {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 2%;
+    line-height: 20px;
+    color: rgba(142, 142, 142, 1);
+    margin-bottom: 20px;
+    margin-right: 140px;
+  }
+
+  .fashion_content {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .fashion_content_footer_columns {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer_column {
+    width: 32%;
+  }
+}
+
+@media (max-width:320px) {
+  .container {
+    width: 320px;
+    margin: auto;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .burger_menu {
+    display: block;
+  }
+
+  .burger_menu div {
+    width: 60%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    margin: 3px 0;
+  }
+
+  nav {
+    width: 275px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav img {
+    width: 33%;
+    height: 23px;
+    cursor: pointer;
+  }
+
+  .navbar_button button {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: -3%;
+    background-color: black;
+    border-radius: 7px;
+    width: 79px;
+    height: 29px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+
+  /* BANNER */
+
+  .banner {
+    background-color: rgba(244, 245, 245, .1);
+    width: 255px;
+    height: 420px;
+    margin: auto;
+    border-radius: 59px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner_left {
+    width: 100%;
+  }
+
+  .banner_right {
+    width: 100%;
+    height: 275px;
+  }
+
+  .banner_right .women {
+    width: 100%;
+    height: 214px;
+  }
+
+  .banner_left_content {
+    padding: 0;
+  }
+
+  .banner_left_content_texts h1 span:nth-child(1) {
+    background-color: white;
+    padding: 5px 10px;
+  }
+
+  .banner_left_content_texts h1 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .banner_left_content p {
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: -5%;
+    line-height: 20px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .banner_left_content_btns img {
+    width: 30%;
+    height: 22px;
+  }
+
+  .banner_left_content_btns {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-top: 30px;
+    justify-content: center;
+  }
+
+  .banner_left_content_btns button {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: -3%;
+    background-color: black;
+    border-radius: 7px;
+    width: 79px;
+    height: 29px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+
+  .star1 {
+    width: 25px;
+    height: 25px;
+    top: 17%;
+    left: 2%;
+  }
+
+  .star2 {
+    width: 25px;
+    height: 25px;
+    right: 19%;
+    top: 23%;
+  }
+
+  .star3 {
+    width: 25px;
+    height: 25px;
+    bottom: 1%;
+  }
+
+  .star4 {
+    width: 25px;
+    height: 25px;
+    right: 5%;
+    bottom: 8%;
+  }
+
+  /* BRANDS */
+
+  .brands {
+    width: 320px;
+    height: 130px;
+    background-color: rgba(235, 217, 107, 1);
+    margin: auto;
+  }
+
+  .brands_logo {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .brands_logo_1 {
+    width: 15%;
+    height: 34px;
+    cursor: pointer;
+  }
+
+  .brands_logo_2 {
+    width: 15%;
+    height: 43px;
+    cursor: pointer;
+  }
+
+  .brands_logo_3 {
+    width: 25%;
+    height: 29px;
+    cursor: pointer;
+  }
+
+  .brands_logo_4 {
+    width: 30%;
+    height: 16px;
+    cursor: pointer;
+  }
+
+  .brands_logo_5 {
+    width: 19%;
+    height: 32px;
+    cursor: pointer;
+  }
+
+  .brands_logo_6 {
+    width: 25%;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  /* NEW ARRIVALS */
+
+  .head_title {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 6%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .banner_new_arrivals_head {
+    padding: 20px 0 20px 80px;
+  }
+
+  .banner_new_arrivals_head_content {
+    width: 175px;
+    height: 58px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .head_image {
+    width: 62px;
+    height: 12px;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    z-index: 0;
+  }
+
+  .banner_new_arrivals {
+    width: 239px;
+    height: 1340px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around
+  }
+
+  .card1_content img {
+    width: 100%;
+  }
+
+  .card2_content img {
+    width: 100%;
+  }
+
+  .card3_content img {
+    width: 100%;
+  }
+
+  .text h3 {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -4%;
+  }
+
+  .text p {
+    width: 90%;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -4%;
+  }
+
+  .card1_content_description {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card2_content_description {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card3_content_description {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .arrow img  {
+    width: 24px;
+    height: 12px;
+  }
+  
+  .arrow {
+    width:10%
+  }
+  
+  .text {
+    width: 80%;
+  }
+
+  .card1 {
+    text-align: left;
+  }
+
+  
+  .card2 {
+    text-align: left;
+  }
+
+  
+  .card3 {
+    text-align: left;
+  }
+
+  .banner_new_arrivals_container {
+    padding-bottom: 0;
+  }
+
+
+  /* PAYDAY */
+
+  .banner_payday {
+    display: none;
+  }
+
+  .banner_payday2 {
+    display: block;
+  }
+
+  .banner_payday2_right_content {
+    padding: 20px 0 0 10px;
+  }
+
+  .banner_payday2 {
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    width: 320px;
+    height: 742px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .banner_payday2_left {
+    height: 500px;
+    width: 100%;
+  }
+
+  .banner_payday2_left {
+    width: 100%;
+    height: 482px;
+  }
+
+  .banner_payday2_right {
+    height: 260px;
+    width: 50%;
+  }
+
+  .banner_payday2_left .women {
+    width: 100%;
+    height: 357px;
+  }
+
+  .star_two {
+    width: 25px;
+    height: 25px;
+  }
+
+  .payday_star1 {
+    top: 329px;
+    left: 54px;
+  }
+
+  .payday_star2 {
+    right: 33px;
+    top: 145px;
+  }
+
+  .payday_star3 {
+    bottom: 262px;
+    right: 239px;
+  }
+
+  .payday_star4 {
+    right: 35px;
+    bottom: 111px;
+  }
+
+  .banner_payday2_right_content_texts h1 {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: center;
+  }
+
+  .banner_payday2_right_content_texts h4 {
+    width: 214px;
+    height: 58px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: -2%;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .banner_payday2_right_content_texts p span {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .banner_payday2_right_content_texts p {
+    width: 130px;
+    height: 100px;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: -2%;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .banner_payday2_right_content_texts {
+    width: 300px;
+    height: 685px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner_payday2_right_content_btn button {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: -3%;
+    background-color: black;
+    border-radius: 7px;
+    width: 95px;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+
+  /* YOUNGS FAVORITE */
+
+  .banner_youngs_fovourite_head_content {
+    width: 196px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .banner_youngs_fovourite_head_content h2 {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 6%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .banner_youngs_fovourite_head_content img {
+    width: 84px;
+    height: 14px;
+    position: absolute;
+    top: 26px;
+    left: 115px;
+    z-index: 0;
+  }
+
+  .banner_youngs_fovourite {
+    width: 270px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .arrow2 {
+    width: 15%;
+  }
+
+  .youngs_fovourite_card1_content_description {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  .youngs_fovourite_card2_content_description {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  /* APP  */
+
+  .banner_download_app {
+    width: 320px;
+    height: 1166px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .banner_download_app_left {
+    width: 100%;
+  }
+
+  .banner_download_app_left_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 25px 0 0px 0;
+  }
+
+  .banner_download_app_left_content_texts h1 {
+    width: 254px;
+    height: 92px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 6%;
+  }
+
+  .banner_download_app_left_content p {
+    width: 241px;
+    height: 58px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: -4%;
+    text-align: center;
+    line-height: 20px;
+    color: rgba(124, 124, 124, 1);
+    text-align: center;
+  }
+
+  .banner_download_app_left_content_btns img {
+    width: 105px;
+    height: 35px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .banner_download_app_left_content_btns {
+    width: 225px;
+    height: 35px;
+  }
+
+  .banner_download_app_right {
+    width: 100%;
+  }
+
+  .circle1 {
+    width: 70%;
+    bottom: 584px;
+    left: 45px;
+    z-index: 0;
+  }
+
+  .circle3 {
+    width: 60%;
+    bottom: 598px;
+    right: 68px;
+    z-index: 1;
+  }
+
+  .circle2 {
+    width: 50%;
+    bottom: 614px;
+    right: 85px;
+    z-index: 2;
+  }
+
+  .banner_download_app_right .phone {
+    width: 183px;
+    height: 325px;
+    position: absolute;
+    object-fit: cover;
+    bottom: 532px;
+    left: 68px;
+    z-index: 3;
+  }
+
+  .circle4 {
+    width: 5%;
+    top: -339px;
+    right: 59px;
+  }
+
+  .circle5 {
+    width: 3%;
+    bottom: 585px;
+    left: 62px;
+  }
+
+  .circle6 {
+    width: 2%;
+    bottom: 594px;
+    right: 58px;
+  }
+
+  .circle7 {
+    width: 2%;
+    bottom: 801px;
+    right: 255px;
+  }
+
+
+  /* FOOTER   */
+
+  .shopping_community {
+    background-color: rgba(229, 198, 67, 1);
+    width: 320px;
+    height: 300px;
+  }
+
+  .shopping_community_content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    position: relative;
+  }
+
+  .shopping_community_content h2 {
+    width: 278px;
+    height: 70px;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 3%;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .shopping_community_content p {
+    width: 227px;
+    height: 25px;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 3%;
+    line-height: 15px;
+    color: rgba(255, 252, 248, 1);
+  }
+
+  .shopping_community_content_btns button {
+    width: 61px;
+    height: 23px;
+    background-color: black;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 3%;
+    line-height: 20px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    left: 225px;
+    bottom: 68px;
+    cursor: pointer;
+  }
+
+  .shopping_community_content_btns input {
+    width: 248px;
+    height: 29px;
+    background-color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 3%;
+    line-height: 35px;
+    color: rgba(118, 118, 118, 1);
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+  }
+
+  .fashion {
+    width: 320px;
+    height: 515px;
+    margin: auto;
+    background-color: black;
+  }
+
+  .fashion_content_head {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .fashion_content_head h2 {
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 3%;
+    line-height: 40px;
+    color: white;
+  }
+
+  .fashion_content_head p {
+    width: 189px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 2%;
+    line-height: 30px;
+    color: rgba(142, 142, 142, 1);
+  }
+
+  .social_icons {
+    width: 193px;
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social_icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .footer_column h3 {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 2%;
+    line-height: 32px;
+    color: rgba(217, 217, 217, 1);
+    margin-bottom: 12px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .footer_column ul li {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 2%;
+    line-height: 20px;
+    color: rgba(142, 142, 142, 1);
+    margin-bottom: 20px;
+    margin-right: 140px;
+  }
+
+  .fashion_content {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .fashion_content_footer_columns {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer_column {
+    width: 32%;
+  } 
+}
+
+
+
